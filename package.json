@@ -1,0 +1,22 @@
+{
+  "name": "sensorsdata-react-native-test",
+  "version": "2.0.0-45",
+  "private": false,
+  "description": "RN 组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sensorsdatatest",
+    "reactnative"
+  ],
+  "author": "chenru",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr1106/SensorsDataRN.git"
+  },
+  "homepage": "https://github.com/cr1106/SensorsDataRN",
+  "dependencies": {}
+}

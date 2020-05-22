@@ -24,5 +24,3 @@ react-native link sensorsdata-react-native-test
 ```sh
 npm install
 ```
-
-### 详细文档请参考：[Android & iOS SDK 在 React Native 中使用说明](https://www.sensorsdata.cn/manual/sdk_reactnative.html)

@@ -224,20 +224,6 @@ function identify (anonymousId) {
   RNSensorsAnalyticsModule && RNSensorsAnalyticsModule.identify && RNSensorsAnalyticsModule.identify(anonymousId);
 }
 
-//***************************************Android Only Start***************************************
-
-/**
- * 获取当前的 distinctId.
- *
- * @param successCallback 优先返回登录 ID ，否则返回匿名 ID，类型 Callback
- * @param errorCallback 获取失败异常信息，类型 Callback
- */
-function getDistinctId (successCallback, errorCallback) {
-  RNSensorsAnalyticsModule && RNSensorsAnalyticsModule.getDistinctId && RNSensorsAnalyticsModule.getDistinctId(successCallback, errorCallback);
-}
-
-//***************************************Android Only End***************************************
-
 export default {
   login,
   logout,
@@ -253,7 +239,6 @@ export default {
   clearTrackTimer,
   trackInstallation,
   trackViewScreen,
-  getDistinctId,
   getDistinctIdPromise,
   getAnonymousIdPromise,
   registerSuperProperties,
